@@ -9,22 +9,27 @@
 
 <url>
   <loc>https://elfreds.com/</loc>
-  <lastmod>2019-06-26T12:21:08+00:00</lastmod>
+  <lastmod>2019-07-30T12:21:08+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://elfreds.com/services/</loc>
-  <lastmod>2019-06-26T12:21:08+00:00</lastmod>
+  <lastmod>2019-07-30T12:21:08+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://elfreds.com/feedback</loc>
-  <lastmod>2019-06-26T12:21:08+00:00</lastmod>
+  <lastmod>2019-07-30T12:21:08+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 <url>
   <loc>https://elfreds.com/partners</loc>
-  <lastmod>2019-06-26T12:21:08+00:00</lastmod>
+  <lastmod>2019-07-30T12:21:08+00:00</lastmod>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://elfreds.com/jobs</loc>
+  <lastmod>2019-07-30T12:21:08+00:00</lastmod>
   <priority>0.90</priority>
 </url>
 
