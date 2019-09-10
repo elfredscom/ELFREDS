@@ -1,4 +1,4 @@
-##TERMS OF USE
+## TERMS OF USE
 
 ELFREDS COMMERCE LLP (“we”, “us”, “our”, “Company”, and “ECL”) is the owner of the brand “Hisar Fresh”, mobile applications “Hisar Fresh”, and the website “hisarfresh.com” (the “Site”).
 
