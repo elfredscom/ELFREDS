@@ -25,6 +25,12 @@ ECL, in its sole discretion and without liability, reserves the right to termina
 
 Your submission of personal information through the Site and/or directly to us is governed by our Privacy Policy. Kindly review our Privacy Policy before using the Site and/or our services.
 
+#### COMMUNICATIONS
+
+You agree that any communication through the digital means including website, mobile apps, call, SMS, email, WhatsApp, and others (collectively "Mediums") shall be as valid as written and direct face-to-face means of communication. 
+
+All notices, notification, invoices, and other informations (collectively "Info") sent to you through the Mediums (including the email id and mobile number provided by you at the time of signup or as updated from time-to-time) shall be deemed to be received and read by you by the end of day. You agree that delivery of Info through any of the Mediums shall be equivalent to the physical delivery of the Info. 
+
 #### CANCELLATIONS
 
 As a user, you may cancel an order placed by you before the order enters the “Enroute” stage. You can also return the order at the time of delivery.
