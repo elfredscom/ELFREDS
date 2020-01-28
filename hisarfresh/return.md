@@ -14,6 +14,6 @@ Certain products or services may be available exclusively and may have limited q
 
 Please note: Few products listed may or may not carry a seller warranty, which is beyond the basis return policy of ECL. You may be required to contact not ECL but the seller or any other third party in relation to such warranty.
 
-###### Yellow List
+#### Yellow List
 
 We strive to provide 100% satisfaction to all our users but to safeguard ourselves from unsustainable claims, we may maintain a list of accounts with a proportinately high number of refund/return requests. Any claim from such account may be checked or rejected. Further, the account may be restricted. Please note, the purpose of the practice is to help ECL sustain claims and provide its services efficiently. This in no way warrants any judgement on customers' intention.
