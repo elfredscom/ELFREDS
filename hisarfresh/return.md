@@ -16,4 +16,4 @@ Please note: Few products listed may or may not carry a seller warranty, which i
 
 #### Yellow List
 
-We strive to provide 100% satisfaction to all our users but to safeguard ourselves from unsustainable claims, we may maintain a list of accounts with a proportinately high number of refund/return requests. Any claim from such account may be checked or rejected. Further, the account may be restricted. Please note, the purpose of the practice is to help ECL sustain claims and provide its services efficiently. This in no way warrants any judgement on customers' intention.
+We strive to provide 100% satisfaction to all our users but to safeguard ourselves from unsustainable claims, we may maintain a list of accounts with: i) a proportinately high number of refund/return requests, ii) low amount per order, or iii) delayed payments for orders. Any order/claim from such account may be checked or rejected. Further, the account may be restricted. Please note, the purpose of the practice is to help ECL sustain claims and provide its services efficiently. This in no way warrants any judgement on customers' intention.
