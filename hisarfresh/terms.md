@@ -66,7 +66,7 @@ Certain products or services may be available exclusively and may have limited q
 
 Please note: Few products listed may or may not carry a seller warranty, which is beyond the basis return policy of ECL. You may be required to contact not ECL but the seller or any other third party in relation to such warranty.
 
-####### Yellow List
+###### Yellow List
 
 We strive to provide 100% satisfaction to all our users but to safeguard ourselves from unsustainable claims, we may maintain a list of accounts with: i) a proportinately high number of refund/return requests, ii) low amount per order, or iii) delayed payments for orders. Any order/claim from such account may be checked or rejected. Further, the account may be restricted. Please note, the purpose of the practice is to help ECL sustain claims and provide its services efficiently. This in no way warrants any judgement on customers' intention.
 
@@ -195,6 +195,7 @@ ECL may at any time modify the Terms of Use of the Website without any prior not
 #### GOVERNING LAW AND JURISDICTION
 
 This Agreement shall be construed in accordance with the applicable laws of India. The Courts at Hisar shall have exclusive jurisdiction in any proceedings arising out of this agreement. Any dispute or difference either in interpretation or otherwise, of any terms of this Agreement between the parties hereto, the same shall be referred to an independent arbitrator who will be appointed by ECL and his decision shall be final and binding on the parties hereto. The above arbitration shall be in accordance with the Arbitration and Conciliation Act, 1996 as amended from time to time. The arbitration shall be held in Hisar. The High Court of judicature at Hisar alone shall have the jurisdiction and the Laws of India shall apply.
+
 
 #### CONTACT INFORMATION
 
