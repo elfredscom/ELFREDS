@@ -2,7 +2,7 @@
 
 ELFREDS COMMERCE LLP (“we”, “us”, “our”, “Company”, and “ECL”) is the owner of the brand “Hisar Fresh”, mobile applications “Hisar Fresh”, and the website “hisarfresh.com” (the “Site”).
 
-It is strongly recommended that you read and understand these terms and conditions (“Terms of Use”, “Terms”) carefully, as by accessing the Site, you agree to be bound by the same and acknowledge that it constitutes an agreement between you (“user(s)”, “you”) and the Company (hereinafter the “Agreement”). These Terms apply to all users of the site, including without limitation users who are visitors, browsers, vendors, customers, merchants, and/ or contributors of content at any point in time.
+It is strongly recommended that you read and understand these terms and conditions (“Terms of Use”, “Terms”) carefully, as by accessing the Site, you agree to be bound by the same and acknowledge that it constitutes an agreement between you (“user(s)”, “you”) and the Company (hereinafter the “Agreement”). These Terms apply to all users of the site, including without limitation users who are visitors, browsers, vendors, customers, merchants, and/ or contributors of content at any point in time. If you are a Merchant using Hisar Fresh to serve your customers, Terms of Sale (available at https://elfreds.com/hisarfresh/termsofsale) shall be treated as an addendum to Terms of Use and shall apply to you.
 
 ECL offers this website, including all information, tools and services available from this Site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here. If you do not agree with this Agreement, you should not use or access the Site for any purpose whatsoever.
 
