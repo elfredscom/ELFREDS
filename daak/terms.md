@@ -6,9 +6,9 @@ ELFREDS COMMERCE LLP (“we”, “us”, “our”, “Company”, and “ECL�
 
 Services would be available to select geographies in India only and are subject to restrictions.
 
-Persons who are "incompetent to contract" within the meaning of the Indian Contract Act, 1872 including un-discharged insolvents etc. are not eligible to use the Site.
+Persons who are "incompetent to contract" within the meaning of the Indian Contract Act, 1872 including un-discharged insolvents etc. are not eligible to use the Services.
 
-If you are a minor i.e. under the age of 18 years but at least 13 years of age, you may use the Site only under the supervision of a parent or legal guardian who agrees to be bound by these Terms of Use. Your parents or legal guardians can transact on behalf of you. You are prohibited from purchasing any material that is for adult consumption and the sale of which to minors is prohibited.
+If you are a minor i.e. under the age of 18 years but at least 13 years of age, you may use the Services only under the supervision of a parent or legal guardian who agrees to be bound by these Terms of Use. Your parents or legal guardians can transact on behalf of you. You are prohibited from purchasing any material that is for adult consumption and the sale of which to minors is prohibited.
 
 #### Services
 
