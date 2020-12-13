@@ -4,6 +4,8 @@ ELFREDS COMMERCE LLP (“we”, “us”, “our”, “Company”, and “ECL�
 
 It is strongly recommended that you read and understand these terms and conditions (“Terms of Use”, “Terms”) carefully, as by accessing the Site, you agree to be bound by the same and acknowledge that it constitutes an agreement between you (“user(s)”, “you”) and the Company (hereinafter the “Agreement”). These Terms apply to all users of the site, including without limitation users who are visitors, browsers, vendors, customers, merchants, and/ or contributors of content at any point in time. If you are a Merchant using Hisar Fresh to serve your customers, Terms of Sale (available at https://elfreds.com/hisarfresh/termsofsale) shall be treated as an addendum to Terms of Use and shall apply to you.
 
+If you are a user using the Site to avail the services of Elfreds' Daak for personal or business purposes, additional Terms of Service (available at https://elfreds.com/daak/terms) shall apply to you. Your usage of Elfreds' Daak and its services shall imply your agreement to its Terms of Service.
+
 ECL offers this website, including all information, tools and services available from this Site to you, the user, conditioned upon your acceptance of all terms, conditions, policies and notices stated here. If you do not agree with this Agreement, you should not use or access the Site for any purpose whatsoever.
 
 #### ELIGIBILITY
