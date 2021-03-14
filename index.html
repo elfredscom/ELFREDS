@@ -38,6 +38,22 @@
         display: inline-block;
         vertical-align: top;
       }
+      /* Portrait */
+      @media screen and (orientation:portrait) {
+         .teams {
+            border: 0;
+            display: flex;
+            flex-direction: column;
+          }
+      }
+      /* Landscape */
+      @media screen and (orientation:landscape) {
+         .teams {
+            border: 0;
+            display: flex;
+            flex-direction: row;
+          }
+      }      
     </style>
       
     <title>
@@ -63,6 +79,8 @@
       <br><br>
       You can send your feedback, questions, legal/business enquiries, or a hi to <a href="mailto:inbox@elfreds.com">inbox@elfreds.com</a> and we shall revert asap.
     </div>
+    
+    <div class="teams">
     
     <div class="team" style="background-color: MediumSeaGreen;">
       <h4>
@@ -113,6 +131,8 @@
         ~ <a href="/daak">Daak</a>
       </div>
      </div>
+      
+    </div>
     
   </body>
 </html>
