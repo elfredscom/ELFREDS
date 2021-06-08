@@ -40,15 +40,13 @@
         vertical-align: top;
       }
       /* Portrait */
-      @media screen and (orientation:portrait) {
          .teams {
             border: 0;
             display: flex;
             flex-direction: column;
           }
-      }
-      /* Landscape */
-      @media screen and (orientation:landscape) {
+      /* Big Landscape */
+      @media screen and (orientation:landscape) and (min-width: 48em) {
          .teams {
             border: 0;
             display: flex;
