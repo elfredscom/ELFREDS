@@ -68,6 +68,20 @@
             flex-direction: row;
             flex-wrap: wrap;
           }
+      /* Portrait */
+         .banner {
+            border: 0;
+            display: flex;
+            flex-direction: column;
+          }
+      /* Big Landscape */
+      @media screen and (orientation:landscape) and (min-width: 48em) {
+         .banner {
+            border: 0;
+            display: flex;
+            flex-direction: row;
+          }
+      }      
       @media (prefers-color-scheme: dark) {
         body {
           background-color: #212121;
@@ -87,6 +101,8 @@
       <span class="large">FiveFive</span>
     </div>
       
+    <div class="banner">
+    
     <div class="boxed2">
       <h4>
         FiveFive is a collective of elves, wizards, and humans. <br><br>
@@ -313,6 +329,8 @@
         Content & Copywriting
      </div>
 
+    </div>
+      
     </div>
     
   </body>
