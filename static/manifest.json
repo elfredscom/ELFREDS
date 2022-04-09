@@ -1,0 +1,16 @@
+{
+  "name": "Elfreds",
+  "short_name": "Elfreds",
+  "description": "It is by tiny steps that we ascend the stars.",
+  "lang": "en-GB",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "https://elfreds.com/static/Logo.png",
+      "type": "image/jpeg",
+    }
+  ]
+}
