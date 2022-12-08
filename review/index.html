@@ -1,126 +1,144 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="https://elfreds.com/static/elfreds.png">
-    <style>
-      html {
-      }
-      body {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="https://elfreds.com/static/elfreds.png">
+  <style>
+    html {}
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      border: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .boxed {
+      margin: 2em;
+      padding: 2em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+    }
+
+    .boxed2 {
+      margin: 2em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+    }
+
+    .large {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .team {
+      margin: 0.5em;
+      padding: 0.5em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+      color: #FFF;
+    }
+
+    .work {
+      margin: 0.4em;
+      padding: 0.4em;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .other {
+      margin: 0.4em;
+      padding: 0.4em;
+      opacity: 0.6;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .planned {
+      margin: 0.4em;
+      padding: 0.4em;
+      display: none;
+      vertical-align: top;
+    }
+
+    .infobox {
+      border: 0;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start
+    }
+
+    .teams {
+      border: 0;
+      padding: 2em;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-start
+    }
+
+    /* Portrait */
+    .banner {
+      border: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Big Landscape */
+    @media screen and (orientation:landscape) and (min-width: 48em) {
+      .banner {
         border: 0;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
       }
-      a {
-        color: inherit;
-        text-decoration: none;
-      }
-      .boxed {
-        margin: 2em;
-        padding: 2em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-      }
-      .boxed2 {
-        margin: 2em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-      }
-      .large {
-        font-size: 3em;
-        font-weight: bold;
-      }
-      .team {
-        margin: 0.5em;
-        padding: 0.5em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-        color: #FFF;
-      }
-      .work {
-        margin: 0.4em;
-        padding: 0.4em;
-        display: inline-block;
-        vertical-align: top;
-      }
-      .other {
-        margin: 0.4em;
-        padding: 0.4em;
-        opacity: 0.6;
-        display: inline-block;
-        vertical-align: top;
-      }
-      .planned {
-        margin: 0.4em;
-        padding: 0.4em;
-        display: none;
-        vertical-align: top;
-      }
-         .infobox {
-            border: 0;
-            padding: 2em;
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start
-          }
-         .teams {
-            border: 0;
-            padding: 2em;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: flex-start
-          }
-      /* Portrait */
-         .banner {
-            border: 0;
-            display: flex;
-            flex-direction: column;
-          }
-      /* Big Landscape */
-      @media screen and (orientation:landscape) and (min-width: 48em) {
-         .banner {
-            border: 0;
-            display: flex;
-            flex-direction: row;
-          }
-      }      
-      .partb {
-        flex: 1;
-      }
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #212121;
-          color: white;
-        }
-      }
-    </style>
-      
-    <title>
-      Elfreds' Review
-    </title>
-  </head>
-  <body>
-    
-    <div class="boxed2">
-      <u><a class="" href="https://elfreds.com">Elfreds'</a></u><br>
-      <span class="large"><i>review</i></span>
-    </div>
-      
-    <div class="banner">
-    
+    }
+
+    .partb {
+      flex: 1;
+    }
+  </style>
+
+  <title>
+    Elfreds' Review
+  </title>
+</head>
+
+<body>
+
+  <div class="boxed2">
+    <u><a class="" href="https://elfreds.com">Elfreds'</a></u><br>
+    <span class="large"><i>review</i></span>
+  </div>
+
+  <div class="banner">
+
     <div class="infobox partb">
-      <div>
-        Elfreds' Review team works on <a href="https://exyz.in"><u>EXYZ</u></a>, <a href="https://innocentpost.com"><u>Innocent Post</u></a>, <a href="https://thesaiva.com"><u>The Saiva</u></a>, <a href="https://elfreds.com/fivefive"><u>FiveFive</u></a>, et al.
+      <div> We work on things like:<br>
+        <a href="https://exyz.in" style="padding:0.5em; background-color: gold; border-radius: 0.2em;"><img
+            height="80px" src="/static/EXYZF.png" /><u>(exyz.in)</u></a>,&nbsp; <a href="https://innocentpost.com"
+          style="padding:0.5em; background-color: orange; border-radius: 0.2em;"><img height="100px"
+            src="/static/IPost0.png" /><u>(innocentpost.com)</u></a>,&nbsp; <a href="https://thesaiva.com"
+          style="padding:0.5em; background-color: limegreen; border-radius: 0.2em;"><img height="100px"
+            src="/static/Saiva0.png" /><u>(thesaiva.com)</u></a>,&nbsp;
+        <a href="https://elfreds.com/fivefive"
+          style="padding:0.5em; background-color: lightblue; border-radius: 0.2em;"><u>FiveFive</u></a>,
+        et al.
       </div>
     </div>
 
-    </div>
-    
-  </body>
+  </div>
+
+</body>
+
 </html>
