@@ -1,119 +1,135 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="https://elfreds.com/static/elfreds.png">
-    <style>
-      html {
-      }
-      body {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="https://elfreds.com/static/elfreds.png">
+  <style>
+    html {}
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      border: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .boxed {
+      margin: 2em;
+      padding: 2em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+    }
+
+    .boxed2 {
+      margin: 2em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+    }
+
+    .large {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .team {
+      margin: 0.5em;
+      padding: 0.5em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+      color: #FFF;
+    }
+
+    .work {
+      margin: 0.4em;
+      padding: 0.4em;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .other {
+      margin: 0.4em;
+      padding: 0.4em;
+      opacity: 0.6;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .planned {
+      margin: 0.4em;
+      padding: 0.4em;
+      display: none;
+      vertical-align: top;
+    }
+
+    .infobox {
+      border: 0;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+      align-content: flex-start
+    }
+
+    .teams {
+      border: 0;
+      padding: 2em;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-content: flex-start
+    }
+
+    /* Portrait */
+    .banner {
+      border: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Big Landscape */
+    @media screen and (orientation:landscape) and (min-width: 48em) {
+      .banner {
         border: 0;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
       }
-      a {
-        color: inherit;
-        text-decoration: none;
+    }
+
+    .partb {
+      flex: 1;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #212121;
+        color: white;
       }
-      .boxed {
-        margin: 2em;
-        padding: 2em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-      }
-      .boxed2 {
-        margin: 2em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-      }
-      .large {
-        font-size: 3em;
-        font-weight: bold;
-      }
-      .team {
-        margin: 0.5em;
-        padding: 0.5em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-        color: #FFF;
-      }
-      .work {
-        margin: 0.4em;
-        padding: 0.4em;
-        display: inline-block;
-        vertical-align: top;
-      }
-      .other {
-        margin: 0.4em;
-        padding: 0.4em;
-        opacity: 0.6;
-        display: inline-block;
-        vertical-align: top;
-      }
-      .planned {
-        margin: 0.4em;
-        padding: 0.4em;
-        display: none;
-        vertical-align: top;
-      }
-         .infobox {
-            border: 0;
-            padding: 2em;
-            display: flex;
-            flex-direction: column;
-            align-content: flex-start
-          }
-         .teams {
-            border: 0;
-            padding: 2em;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: flex-start
-          }
-      /* Portrait */
-         .banner {
-            border: 0;
-            display: flex;
-            flex-direction: column;
-          }
-      /* Big Landscape */
-      @media screen and (orientation:landscape) and (min-width: 48em) {
-         .banner {
-            border: 0;
-            display: flex;
-            flex-direction: row;
-          }
-      }      
-      .partb {
-        flex: 1;
-      }
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #212121;
-          color: white;
-        }
-      }
-    </style>
-      
-    <title>
-      Elfreds' FiveFive
-    </title>
-  </head>
-  <body>
-    
-    <div class="boxed2">
-      <u><a class="" href="https://elfreds.com">Elfreds'</a></u><br>
-      <span class="large"><i>FiveFive</i></span>
-    </div>
-      
-    <div class="banner">
-    
+    }
+  </style>
+
+  <title>
+    Elfreds' FiveFive
+  </title>
+</head>
+
+<body>
+
+  <div class="boxed2">
+    <u><a class="" href="https://elfreds.com">Elfreds'</a></u><br>
+    <span class="large"><i>FiveFive</i></span>
+  </div>
+
+  <div class="banner">
+
     <div class="infobox partb">
       <h4>
         Elfreds' FiveFive is a collective of elves, wizards, and humans.
@@ -121,10 +137,10 @@
         <i>'timely and quality deliverables at value pricing.'</i>
       </h4>
       <p>
-      We take independent work along with assignments on upwork.com. <br><br>
-      Our rates start from $5/hour for basic tasks (like data entry, customer support) and from $10/hour for skillful tasks (like analytical writing, design). 
-      Drop us a message with your work requirements to get a quotation. <br><br>
-      If you are a business that is looking to outsource, we offer business account representative that can take care of all your needs. If you are an individual that needs to get things done, message right away!
+        We take independent work along with assignments on upwork.com.
+        Drop us a message with your work requirements to get a quotation. <br><br>
+        If you are a business that is looking to outsource, we offer business account representative that can take care
+        of all your needs. If you are an individual that needs to get things done, message right away!
       </p>
       <div class="work">Email: <u><a href="mailto:fivefive@elfreds.com">fivefive@elfreds.com</a></u></div>
       <!-- <div class="work"><u><a href="https://t.me/elfreds">Telegram</a></u> / <u><a href="https://wa.me/917700044444">WhatsApp</a></u></div>
@@ -132,184 +148,185 @@
       <div class="work"><u><a href="https://rzp.io/l/elfreds">Pay in US Dollars</a></u></div>
       <div class="work"><u><a href="https://rzp.io/l/elfredsinr">Pay in Indian Rupees</a></u></div> -->
     </div>
-    
+
     <div class="teams partb">
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Admin Support
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: MediumSlateBlue;">
+      <div class="planned" style="background-color: MediumSlateBlue;">
         Project Management
-     </div>
+      </div>
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Web Research
-     </div>
+      </div>
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Personal/Virtual Assistance
-     </div>
+      </div>
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Data Entry
-     </div>
+      </div>
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Customer Support
-     </div>
+      </div>
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Microsoft Office
-     </div>
+      </div>
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Content Moderation
-     </div>
+      </div>
 
-    <div class="team" style="background-color: MediumSlateBlue;">
+      <div class="team" style="background-color: MediumSlateBlue;">
         Lead Generation
-     </div>
+      </div>
 
-    <div class="team" style="background-color: SeaGreen;">
+      <div class="team" style="background-color: SeaGreen;">
         Data Analytics
-     </div>
+      </div>
 
-    <div class="team" style="background-color: SeaGreen;">
+      <div class="team" style="background-color: SeaGreen;">
         Market Research
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: SeaGreen;">
+      <div class="planned" style="background-color: SeaGreen;">
         Machine Learning
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: SeaGreen;">
+      <div class="planned" style="background-color: SeaGreen;">
         Data Visualization
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: SeaGreen;">
+      <div class="planned" style="background-color: SeaGreen;">
         Data Science
-     </div>
+      </div>
 
-    <div class="team" style="background-color: SeaGreen;">
+      <div class="team" style="background-color: SeaGreen;">
         Data Mining
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: SeaGreen;">
+      <div class="planned" style="background-color: SeaGreen;">
         A/B Testing
-     </div>
+      </div>
 
-    <div class="team" style="background-color: SeaGreen;">
+      <div class="team" style="background-color: SeaGreen;">
         Quantitative Analysis
-     </div>
-      
-    <div class="team" style="background-color: SeaGreen;">
+      </div>
+
+      <div class="team" style="background-color: SeaGreen;">
         Strategy
-     </div>
-      
-    <div class="planned" style="background-color: SeaGreen;">
+      </div>
+
+      <div class="planned" style="background-color: SeaGreen;">
         Management Consulting
-     </div>
+      </div>
 
-    <div class="team" style="background-color: IndianRed;">
+      <div class="team" style="background-color: IndianRed;">
         Design & Creative
-     </div>
-    
-    <div class="team" style="background-color: IndianRed;">
-        Adobe Creative Cloud
-     </div>
-      
-    <div class="planned" style="background-color: IndianRed;">
-        Video & Animation
-     </div>
-      
-    <div class="team" style="background-color: IndianRed;">
-        Editorial & Presentation Design
-     </div>
-      
-    <div class="planned" style="background-color: IndianRed;">
-        Transcription
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: IndianRed;">
-        Translation 
-     </div>
+      <div class="team" style="background-color: IndianRed;">
+        Adobe Creative Cloud
+      </div>
+
+      <div class="planned" style="background-color: IndianRed;">
+        Video & Animation
+      </div>
+
+      <div class="team" style="background-color: IndianRed;">
+        Editorial & Presentation Design
+      </div>
+
+      <div class="planned" style="background-color: IndianRed;">
+        Transcription
+      </div>
+
+      <div class="planned" style="background-color: IndianRed;">
+        Translation
+      </div>
 
       <div class="team" style="background-color: IndianRed;">
         Graphic Design
-     </div>
-      
-    <div class="team" style="background-color: IndianRed;">
+      </div>
+
+      <div class="team" style="background-color: IndianRed;">
         Art & Illustration
-     </div>
+      </div>
 
       <div class="team" style="background-color: IndianRed;">
         Product Design
-     </div>
+      </div>
 
-    <div class="team" style="background-color: RoyalBlue;">
+      <div class="team" style="background-color: RoyalBlue;">
         Content & Copywriting
-     </div>
+      </div>
 
-    <div class="team" style="background-color: RoyalBlue;">
+      <div class="team" style="background-color: RoyalBlue;">
         Academic Writing
-     </div>
+      </div>
 
-    <div class="team" style="background-color: RoyalBlue;">
+      <div class="team" style="background-color: RoyalBlue;">
         Technical Writing
-     </div>
+      </div>
 
-    <div class="team" style="background-color: RoyalBlue;">
+      <div class="team" style="background-color: RoyalBlue;">
         Longform
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: RoyalBlue;">
+      <div class="planned" style="background-color: RoyalBlue;">
         Editing & Proofreading
-     </div>
+      </div>
 
-    <div class="team" style="background-color: RoyalBlue;">
+      <div class="team" style="background-color: RoyalBlue;">
         Creative Writing
-     </div>
+      </div>
 
-    <div class="team" style="background-color: Peru;">
+      <div class="team" style="background-color: Peru;">
         Software
-     </div>
+      </div>
 
-    <div class="team" style="background-color: Peru;">
+      <div class="team" style="background-color: Peru;">
         Web Development
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: Peru;">
+      <div class="planned" style="background-color: Peru;">
         QA & Testing
-     </div>
+      </div>
 
-    <div class="team" style="background-color: Peru;">
+      <div class="team" style="background-color: Peru;">
         No-Code Apps
-     </div>
+      </div>
 
-    <div class="team" style="background-color: Peru;">
+      <div class="team" style="background-color: Peru;">
         Automations & Integrations
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: Peru;">
+      <div class="planned" style="background-color: Peru;">
         Mobile Apps
-     </div>
+      </div>
 
-    <div class="planned" style="background-color: Peru;">
+      <div class="planned" style="background-color: Peru;">
         Scripts & Utilities
-     </div>
+      </div>
 
-     <div class="planned" style="background-color: Peru;">
+      <div class="planned" style="background-color: Peru;">
         AWS, Azure, GCP
-     </div>
+      </div>
 
-    <div class="team" style="background-color: Peru;">
+      <div class="team" style="background-color: Peru;">
         Product Management
-     </div>
-      
+      </div>
+
     </div>
-      
-    </div>
-    
-  </body>
+
+  </div>
+
+</body>
+
 </html>
