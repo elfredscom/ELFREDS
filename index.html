@@ -1,167 +1,190 @@
 <!doctype html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="icon" type="image/png" href="https://elfreds.com/static/elfreds.png">
-    <link rel="apple-touch-icon" href="https://elfreds.com/static/elfreds.png">
 
-    <style>
-      html {
-      }
-      body {
-        font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" type="image/png" href="https://elfreds.com/static/elfreds.png">
+  <link rel="apple-touch-icon" href="https://elfreds.com/static/elfreds.png">
+
+  <style>
+    html {}
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+      border: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .boxed {
+      margin: 2em;
+      padding: 2em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+    }
+
+    .boxed2 {
+      margin: 2em;
+      border-radius: 0.2em;
+      display: block;
+      vertical-align: top;
+    }
+
+    .large {
+      font-size: 3em;
+      font-weight: bold;
+    }
+
+    .team {
+      margin: 2em;
+      padding: 2em 3em;
+      border-radius: 0.5em;
+      display: block;
+      vertical-align: top;
+      color: #FFF;
+    }
+
+    .work {
+      margin: 0.4em;
+      padding: 0.4em;
+      display: inline-block;
+      vertical-align: top;
+    }
+
+    .other {
+      margin: 0.4em;
+      padding: 0.4em;
+      display: none;
+      vertical-align: top;
+    }
+
+    .planned {
+      margin: 0.4em;
+      padding: 0.4em;
+      display: none;
+      vertical-align: top;
+    }
+
+    underline {
+      text-decoration: underline !important;
+      text-decoration-color: tomato;
+    }
+
+    /* Portrait */
+    .teams {
+      border: 0;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Big Landscape */
+    @media screen and (orientation:landscape) and (min-width: 48em) {
+      .teams {
         border: 0;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
       }
-      a {
-        color: inherit;
-        text-decoration: none;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body {
+        background-color: #212121;
+        color: white;
       }
-      .boxed {
-        margin: 2em;
-        padding: 2em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-      }
-      .boxed2 {
-        margin: 2em;
-        border-radius: 0.2em;
-        display: block;
-        vertical-align: top;
-      }
-      .large {
-        font-size: 3em;
-        font-weight: bold;
-      }
-      .team {
-        margin: 2em;
-        padding: 2em 3em;
-        border-radius: 0.5em;
-        display: block;
-        vertical-align: top;
-        color: #FFF;
-      }
-      .work {
-        margin: 0.4em;
-        padding: 0.4em;
-        display: inline-block;
-        vertical-align: top;
-      }
-      .other {
-        margin: 0.4em;
-        padding: 0.4em;
-        display: none;
-        vertical-align: top;
-      }
-      .planned {
-        margin: 0.4em;
-        padding: 0.4em;
-        display: none;
-        vertical-align: top;
-      }
-      underline {
-        text-decoration: underline !important;
-        text-decoration-color: tomato;
-      }
-      /* Portrait */
-         .teams {
-            border: 0;
-            display: flex;
-            flex-direction: column;
-          }
-      /* Big Landscape */
-      @media screen and (orientation:landscape) and (min-width: 48em) {
-         .teams {
-            border: 0;
-            display: flex;
-            flex-direction: row;
-          }
-      }      
-      @media (prefers-color-scheme: dark) {
-        body {
-          background-color: #212121;
-          color: white;
-        }
-      }
-    </style>
-      
-    <title>
-      Elfreds
-    </title>
-  </head>
-  <body>
-    
-    <div class="boxed2">
-      <span class="large">Elfreds</span>
-    </div>
-      
-    <div class="boxed2">
-      <h4>
-        ELFREDS COMMERCE LLP
-      </h4>
-      Located near Saraswati riverbank, we work on projects that advance information, technology, and goodness across planet earth.
-      <br><br>
-      Email: <u><a href="mailto:office@elfreds.com">office@elfreds.com</a></u>
-      <!--<br><br>
+    }
+  </style>
+
+  <title>
+    Elfreds
+  </title>
+</head>
+
+<body>
+
+  <div class="boxed2">
+    <span class="large">Elfreds</span>
+  </div>
+
+  <div class="boxed2">
+    <h4>
+      ELFREDS COMMERCE LLP
+    </h4>
+    Located near Saraswati riverbank, we work on projects that advance information, technology, and goodness across
+    planet earth.
+    <br><br>
+    Email: <u><a href="mailto:office@elfreds.com">office@elfreds.com</a></u>
+    <!--<br><br>
       <a href="https://twitter.com/_elfreds">Twitter</a> / <a href="https://t.me/elfreds">Telegram</a>-->
-    </div>
-    
-    <div class="teams">
-    
+  </div>
+
+  <div class="teams">
+
     <div class="team" style="background-color: MediumSeaGreen;">
       <h4>
         CAPITAL E
       </h4>
 
-      <div class="work"><!--business administration, investment, and finance-->
+      <div class="work">
+        <!--business administration, investment, and finance-->
         // office
       </div>
-      
-      <div class="work"><!--environment, welfare, and community: aligning interests of people-->
+
+      <div class="work">
+        <!--environment, welfare, and community: aligning interests of people-->
         / sivaya
       </div>
-     </div>
-      
+    </div>
+
     <div class="team" style="background-color: DodgerBlue;">
       <h4>
         ELFANTS
       </h4>
-      
-      <div class="work"><!--Research, experiments, and information tech incl. IP, 55, and TS >>
-        innocentpost.com: business research, consulting, and publishing services
+
+      <div class="work">
+        <!--Research, experiments, and information tech incl. IP, 55, and TS >>
+        innocentpost.com: business and tech research, consulting, and publishing services
         elfreds.com/fivefive: BPO Services, Human Capital, and Micro businesses (mainly IT), Intemediary services via Xivay
         thesaiva.com: discussion, data, information, and knowledge
         -->
-        // <a href="/review">review</a>
+        // <a href="https://innocentpost.com">review</a>
       </div>
-      
-      <div class="work"><!--Social network, communication, platform-->
+
+      <div class="work">
+        <!--Social network, communication, platform-->
         / <a href="https://xivay.com">xivay</a>
       </div>
-      
-      <div class="work"><!--Trial and Error, R&D, Tech hardware and Capital goods-->
+
+      <div class="work">
+        <!--Trial and Error, R&D, Tech hardware and Capital goods-->
         / bitbrick
       </div>
-     </div>
-      
+    </div>
+
     <div class="team" style="background-color: Tomato;">
       <h4>
         ELVEN
       </h4>
 
-      <div class="work"><!-- Co-working, and Micro/Local businesses-->
+      <div class="work">
+        <!-- Co-working, and Micro/Local businesses-->
         // coop
       </div>
-      
-      <div class="work"><!--Food, Water, and essentials (focus on efficiency and future needs)-->
+
+      <div class="work">
+        <!--Food, Water, and essentials (focus on efficiency and future needs)-->
         / agro
       </div>
-      </div>
-
     </div>
-    
-  </body>
+
+  </div>
+
+</body>
+
 </html>
